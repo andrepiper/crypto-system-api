@@ -3,11 +3,11 @@ Mulesoft Cert training
 
 Resouces
 * Console URL : http://127.0.0.1:8081/console/
-* API URL : http://127.0.0.1:8081/api/crypto
+* API URL : http://127.0.0.1:8081/api
 
-Routes
-* /crypto - GET ALL info from coincap.io front page
-* /crypto/page/{coin} - GET coin object by coin name. Ex. BTC
+GET Routes
+* /coins - GET ALL info from coincap.io front page
+* /page/{coin} - GET coin object by coin name. Ex. BTC
 
 Screenshot
 ![alt text](https://github.com/andrepiper/crypto-system-api/raw/master/crypto-system-api.png)

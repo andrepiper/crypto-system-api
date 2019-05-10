@@ -4,6 +4,8 @@ baseUri: http://localhost:8081/crypto
 mediaType:  application/json
 types:
   CoinCapFront: !include coincap-front.raml
+  CoinCapPage: !include coincap-page-object.raml
+  
 /crypto:
     description: CoinCap wrapper
     get:
@@ -16,3 +18,16 @@ types:
                   example: !include coincap-front-list.json
             404:
               description: Not found
+    /page/{coin}:
+      description: CoinCap wrapper
+      get:
+          description: GET coincap api coin page
+          responses:
+              200:
+                body:
+                  application/json:
+                    type: CoinCapPage
+                    example: !include coincap-page-object.json
+              404:
+                description: Not found
+    

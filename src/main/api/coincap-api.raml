@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: Crypto API (CoinCap wrapper)
+baseUri: http://localhost:8081/crypto
+mediaType:  application/json
+types:
+  CoinCapFront: !include coincap-front.raml
+/crypto:
+    description: CoinCap wrapper
+    get:
+        description: GET coincap api front page response
+        responses:
+            200:
+              body:
+                application/json:
+                  type: CoinCapFront[]
+                  example: !include coincap-front-list.json
+            404:
+              description: Not found

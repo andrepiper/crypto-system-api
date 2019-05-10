@@ -1,0 +1,30 @@
+[
+    {
+        "cap24hrChange": -6.05,
+        "long": "Bitcoin",
+        "mktcap": 65173805891.25,
+        "perc": -6.05,
+        "price": 3934.85,
+        "shapeshift": true,
+        "short": "BTC",
+        "supply": 16563225,
+        "usdVolume": 2337600000,
+        "volume": 2337600000,
+        "vwapData": 3997.5639538606733,
+        "vwapDataBTC": 3997.5639538606733
+    },
+    {
+        "cap24hrChange": -6.59,
+        "long": "Ethereum",
+        "mktcap": 26016428866.32,
+        "perc": -6.59,
+        "price": 275.02,
+        "shapeshift": true,
+        "short": "ETH",
+        "supply": 94598316,
+        "usdVolume": 945732000,
+        "volume": 945732000,
+        "vwapData": 278.03921067242516,
+        "vwapDataBTC": 278.03921067242516
+    }
+]
